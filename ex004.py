@@ -1,0 +1,11 @@
+print('====Exercicios 004====')
+
+a = input('Digite algo: ')
+print ('O tipo primitivo de valor é ', type(a))
+print('Só tem espacos? ', a .isspace())
+print('É um nomero? ', a .isnumeric())
+print('É alfabetico? ', a .isalpha())
+print('É alfanumero? ', a .isalnum())
+print('Esta em maiusculas? ', a .isupper())
+print('Esta em minusculas? ', a .islower())
+print('Esta capitalizada? ', a .istitle())
